@@ -9,7 +9,6 @@ class Login_Page extends StatefulWidget {
 
 class _Login_PageState extends State<Login_Page> {
   bool val1 = false;
-  bool val2 = false;
   void onchange(s){
     setState(() {
       val1 =s;
@@ -52,7 +51,7 @@ class _Login_PageState extends State<Login_Page> {
                         borderRadius: BorderRadius.all(Radius.circular(50.0)),
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Image.asset('assets/life.jpeg',width: 80,height:80,),
+                          child: Image.asset('assets/banks/life.jpeg',width: 80,height:80,),
                         )),
                     CustomInputField(
                         Icon(Icons.person, color: Colors.white), 'Identifiant'),
